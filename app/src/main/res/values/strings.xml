@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">포토제닉</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="image_view_content_description">ImageView Content Description</string>
+
+    <string name="more">MORE</string>
+    <string name="like">좋아요</string>
+    <string name="comment">댓글</string>
+    <string name="put_in">보관</string>
+    <string name="friends">friends</string>
+
+    <string name="drawer_title_home_in_main">바탕화면</string>
+    <string name="drawer_title_log_out_in_main">로그아웃</string>
+
+    <!-- Menu titles in Context Menu -->
+    <string name="context_menu">Context menu</string>
+    <string name="search_in_context_menu">검색</string>
+    <string name="friend_in_context_menu">친구</string>
+    <string name="block_in_context_menu">차단</string>
+    <string name="message_in_context_menu">메시지</string>
+
+    <!-- Menu Titles In Main -->
+    <string name="menu_selfie_in_main">인생샷 보기</string>
+    <string name="menu_favorite_tourist_in_main">인기관광지</string>
+    <string name="menu_taking_a_picture_in_main">사진촬영 및 편집</string>
+    <string name="menu_tourist_information_in_main">관광지 정보</string>
+
+    <!-- Best Selfie In Fragment -->
+    <string name="new_release_in_best_selfie">New Selfie</string>
+    <string name="recommended_in_best_selfie">Recommended</string>
+    <string name="top_rated_in_best_selfie">Top Rated</string>
+
+    <string name="tab_best_selfie_in_selfie">베스트 인생샷</string>
+    <string name="tab_selfie_of_friend_in_selfie">친구의 인생샷</string>
+    <string name="tab_timeline_in_selfie">타임라인</string>
+
+    <!-- Log In Fragment -->
+    <string name="email">email</string>
+    <string name="password">Password (optional)</string>
+    <string name="sign_in">로그인</string>
+    <string name="sign_up">회원가입</string>
+    <string name="remember_me">Remember me</string>
+
+    <!-- Spinner Title in Timeline Fragment -->
+    <string name="all_post_in_timeline">모두</string>
+    <string name="only_friends_in_timeline">친구만</string>
+    <string name="only_me_in_timeline">나만</string>
+
+    <!-- Material Design Icons -->
+    <string name="material_icon_account">&#xe800;</string>
+    <string name="material_icon_account_multiple">&#xe8dc;</string>
+    <string name="material_icon_bookmark">&#xe921;</string>
+    <string name="material_icon_bike">&#xe915;</string>
+    <string name="material_icon_box_full">&#xe86b;</string>
+    <string name="material_icon_clock">&#xe881;</string>
+    <string name="material_icon_check">&#xe867;</string>
+    <string name="material_icon_checked_full">&#xe86f;</string>
+    <string name="material_icon_check_empty">&#xe86a;</string>
+    <string name="material_icon_check_full">&#xe86e;</string>
+    <string name="material_icon_city">&#xe878;</string>
+    <string name="material_icon_cart">&#xe857;</string>
+    <string name="material_icon_chevron_down">&#xe874;</string>
+    <string name="material_icon_chevron_up">&#xe877;</string>
+    <string name="material_icon_date">&#xe848;</string>
+    <string name="material_icon_drink">&#xea08;</string>
+    <string name="material_icon_dollar">&#xe892;</string>
+    <string name="material_icon_email">&#xe99c;</string>
+    <string name="material_icon_eat">&#xeac6;</string>
+    <string name="material_icon_friends">&#xe8d5;</string>
+    <string name="material_icon_flag">&#xe96a;</string>
+    <string name="material_icon_favorite">&#xe9b6;</string>
+    <string name="material_icon_go">&#xea04;</string>
+    <string name="material_icon_go_left">&#xe875;</string>
+    <string name="material_icon_go_right">&#xe876;</string>
+    <string name="material_icon_home_variant">&#xe9bd;</string>
+    <string name="material_icon_home">&#xe9be;</string>
+    <string name="material_icon_hotels">&#xeae3;</string>
+    <string name="material_icon_heart_outline">&#xe9b3;</string>
+    <string name="material_icon_headphones">&#xe9b1;</string>
+    <string name="material_icon_human">&#xe9c5;</string>
+    <string name="material_icon_headline">&#xeb40;</string>
+    <string name="material_icon_image_box">&#xe952;</string>
+    <string name="material_icon_info">&#xe9d4;</string>
+    <string name="material_icon_info_box">&#xe896;</string>
+    <string name="material_icon_like">&#xeb03;</string>
+    <string name="material_icon_line_spacing">&#xe988;</string>
+    <string name="material_icon_note">&#xea23;</string>
+    <string name="material_icon_message">&#xea12;</string>
+    <string name="material_icon_play">&#xe831;</string>
+    <string name="material_icon_play_single">&#xea7d;</string>
+    <string name="material_icon_play_square">&#xea7a;</string>
+    <string name="material_icon_play_circle">&#xea7b;</string>
+    <string name="material_icon_play_outline">&#xea7b;</string>
+    <string name="material_icon_pig">&#xea72;</string>
+    <string name="material_icon_password">&#xe9fa;</string>
+    <string name="material_icon_plus_box">&#xea7f;</string>
+    <string name="material_icon_party">&#xe937;</string>
+    <string name="material_icon_point_empty">&#xe868;</string>
+    <string name="material_icon_point_full">&#xe869;</string>
+    <string name="material_icon_star_outline">&#xeade;</string>
+    <string name="material_icon_star_half">&#xeadd;</string>
+    <string name="material_icon_star">&#xeadf;</string>
+    <string name="material_icon_share">&#xeac0;</string>
+    <string name="material_icon_skip_next">&#xeaca;</string>
+    <string name="material_icon_skip_previous">&#xeacb;</string>
+    <string name="material_icon_soundcloud">&#xead3;</string>
+    <string name="material_icon_statistics">&#xea87;</string>
+    <string name="material_icon_shop">&#xe858;</string>
+    <string name="material_icon_sleep">&#xe9c2;</string>
+    <string name="material_icon_settings">&#xeabe;</string>
+    <string name="material_icon_state">&#xeb62;</string>
+    <string name="material_icon_to_left">&#xe876;</string>
+    <string name="material_icon_video">&#xeb39;</string>
+    <string name="material_icon_undo">&#xeb2c;</string>
+    <string name="material_icon_unfold_more">&#xeb2f;</string>
+    <string name="material_icon_w_shop">&#xeb4f;</string>
+    <string name="material_icon_cloud_univ_first">&#xeb54;</string>
+    <string name="material_icon_cloud_univ_second">&#xeb5a;</string>
+    <string name="material_icon_cloud_univ_third">&#xeb55;</string>
+
+    <string name="sk_apikey">269e5d43-b948-36de-8c5f-cb3a60f54c2a</string>
+    <string name="end_point">164.125.36.72:9967</string>
+
+
+</resources>

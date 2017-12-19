@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chalkak.iml" filepath="$PROJECT_DIR$/Chalkak.iml" />
+      <module fileurl="file://C:\Users\Sungmin\Desktop\Chalkak\Chalkak-Android.iml" filepath="C:\Users\Sungmin\Desktop\Chalkak\Chalkak-Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\bulgo\Desktop\repository\Chalkak-Android\app\app.iml" filepath="C:\Users\bulgo\Desktop\repository\Chalkak-Android\app\app.iml" />
+      <module fileurl="file://C:\Users\bulgo\Desktop\repository\Chalkak-Android\src-android.iml" filepath="C:\Users\bulgo\Desktop\repository\Chalkak-Android\src-android.iml" />
+    </modules>
+  </component>
+</project>

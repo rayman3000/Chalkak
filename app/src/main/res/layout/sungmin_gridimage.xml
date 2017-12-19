@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.balysv.materialripple.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                android:id="@+id/gridimage"
+                                                style="@style/RippleStyleBlack"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="240dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_xsmall"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/grid_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image_2" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_grey_800"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_large">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/grid_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="Two Line"
+                    android:gravity="center_horizontal"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right">
+                    <android.support.v7.widget.AppCompatImageButton
+                        android:id="@+id/grid_star_image"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:scaleType="centerInside"
+                        android:background="@android:color/transparent"
+                        app:srcCompat="@drawable/icons8_star_filled"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/grid_stars"
+                        android:layout_gravity="center"
+                        android:textSize="15dp"
+                        android:textColor="#ffffff"
+                        android:text="3.9"/>
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"/>
+                    <android.support.v7.widget.AppCompatImageButton
+                        android:id="@+id/grid_heart_image"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/heart_fill"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:id="@+id/grid_likes"
+                        android:textSize="15dp"
+                        android:textColor="#ffffff"
+                        android:text="10"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.balysv.materialripple.MaterialRippleLayout>

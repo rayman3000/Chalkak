@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--style for ripple library-->
+    <style name="RippleStyleWhite">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#80FFFFFF</item>
+        <item name="mrl_rippleHover">true</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+    </style>
+
+    <style name="RippleStyleBlack" parent="RippleStyleWhite">
+        <item name="mrl_rippleColor">#8096989A</item>
+    </style>
+
+    <style name="RippleStyleDark" parent="RippleStyleWhite">
+        <item name="mrl_rippleColor">#80000000</item>
+    </style>
+
+    <declare-styleable name="RobotoTextView">
+        <attr name="typeface" format="enum">
+            <enum name="robotoBlack" value="0" />
+            <enum name="robotoBlackItalic" value="1" />
+            <enum name="robotoBold" value="2" />
+            <enum name="robotoBoldItalic" value="3" />
+            <enum name="robotoBoldCondensed" value="4" />
+            <enum name="robotoBoldCondensedItalic" value="5" />
+            <enum name="robotoCondensed" value="6" />
+            <enum name="robotoCondensedItalic" value="7" />
+            <enum name="robotoItalic" value="8" />
+            <enum name="robotoLight" value="9" />
+            <enum name="robotoLightItalic" value="10" />
+            <enum name="robotoMedium" value="11" />
+            <enum name="robotoMediumItalic" value="12" />
+            <enum name="robotoRegular" value="13" />
+            <enum name="robotoThin" value="14" />
+            <enum name="robotoThinItalic" value="15" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PullToZoomView">
+        <attr name="headerView" format="reference" />
+        <attr name="contentView" format="reference" />
+        <attr name="zoomView" format="reference" />
+        <attr name="isHeaderParallax" format="boolean" />
+    </declare-styleable>
+
+    <item type="id" name="scrollview"/>
+
+    <declare-styleable name="RatingBarView">
+        <attr name="starImageSize" format="dimension" />
+        <attr name="starCount" format="integer" />
+        <attr name="starEmpty" format="reference" />
+        <attr name="starFill" format="reference" />
+    </declare-styleable>
+</resources>

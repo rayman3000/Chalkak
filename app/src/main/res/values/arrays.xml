@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawer_titles_in_main">
+        <item>@string/drawer_title_home_in_main</item>
+        <item>@string/drawer_title_log_out_in_main</item>
+    </string-array>
+
+    <string-array name="titles_in_context_menu">
+        <item>@string/search_in_context_menu</item>
+        <item>@string/message_in_context_menu</item>
+        <item>@string/friend_in_context_menu</item>
+        <item>@string/block_in_context_menu</item>
+    </string-array>
+
+    <string-array name="menu_titles_in_main">
+        <item>@string/menu_selfie_in_main</item>
+        <item>@string/menu_favorite_tourist_in_main</item>
+        <item>@string/menu_taking_a_picture_in_main</item>
+        <item>@string/menu_tourist_information_in_main</item>
+    </string-array>
+
+    <string-array name="spinner_titles_in_timeline">
+        <item>@string/all_post_in_timeline</item>
+        <item>@string/only_friends_in_timeline</item>
+        <item>@string/only_me_in_timeline</item>
+    </string-array>
+
+    <string-array name="tab_titles_in_selfie">
+        <item>@string/tab_best_selfie_in_selfie</item>
+        <item>@string/tab_selfie_of_friend_in_selfie</item>
+        <item>@string/tab_timeline_in_selfie</item>
+    </string-array>
+</resources>

@@ -76,7 +76,7 @@ public class ChatBotActivity extends AppCompatActivity {
                 mChatView.getInputEditText().setText("");
                 mChatMessage.add(chatMessage);
                 MessageProcess mp = new MessageProcess();
-                mp.execute("http://172.30.1.8:8080/chatbot/bot.php", chatMessage.getMessage());
+                mp.execute("http://172.21.177.68:8080/chatbot/bot.php", chatMessage.getMessage());
                 mChatView.addMessage(new ChatMessage(chatMessage.getMessage(), chatMessage.getTimestamp(), chatMessage.getType()));
                 return false;
             }

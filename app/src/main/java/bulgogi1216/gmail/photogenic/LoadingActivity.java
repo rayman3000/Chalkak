@@ -27,8 +27,8 @@ public class LoadingActivity extends AppCompatActivity {
         if (!HomeMenuCategoryList.get().getInited()) {
             String[] homeMenuTitles = getResources().getStringArray(R.array.menu_titles_in_main);
             List<HomeMenuCategory> items = HomeMenuCategoryList.get().getHomeMenuCategories();
-            items.add(new HomeMenuCategory(mContext.getDrawable(R.drawable.home_menu_selfie), homeMenuTitles[0]));
-            items.add(new HomeMenuCategory(mContext.getDrawable(R.drawable.home_menu_favorite_tourist), homeMenuTitles[1]));
+            items.add(new HomeMenuCategory(mContext.getDrawable(R.drawable.home_menu_favorite_tourist), homeMenuTitles[0]));
+            items.add(new HomeMenuCategory(mContext.getDrawable(R.drawable.home_menu_chatbot), homeMenuTitles[1]));
             items.add(new HomeMenuCategory(mContext.getDrawable(R.drawable.home_menu_taking_a_picture), homeMenuTitles[2]));
             items.add(new HomeMenuCategory(mContext.getDrawable(R.drawable.home_menu_tourist_information), homeMenuTitles[3]));
             HomeMenuCategoryList.get().setInited(true);

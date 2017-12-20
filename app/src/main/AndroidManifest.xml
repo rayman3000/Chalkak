@@ -21,9 +21,8 @@
             android:name="com.kakao.sdk.AppKey"
             android:value="@string/kakao_app_key" />
 
-        <activity android:name=".MainActivity" />
         <activity
-            android:name=".LoadingActivity"
+            android:name=".Sungmin.LoginActivity"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,18 +30,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SelfieActivity" />
         <activity android:name=".CameraActivity" />
 
         <service android:name=".geofencing.GeofenceTransitionsIntentService" />
-
-        <activity android:name=".MapsTourActivity"></activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".SelfieActivity"/>
+        <activity android:name=".MapsTourActivity"/>
         <activity android:name=".Sungmin.PhotoDescription"/>
         <activity android:name=".Sungmin.Search"/>
         <activity android:name=".Sungmin.Information"/>
         <activity android:name=".Sungmin.ProvinceGridList"/>
         <activity android:name=".Sungmin.ChatBotActivity"/>
         <activity android:name=".Sungmin.ShowRanking"/>
+        <activity android:name=".Sungmin.KakaoSignactivity"/>
+        <activity android:name=".Sungmin.SignUp"/>
+        <activity android:name=".LoadingActivity"/>
+        <activity android:name=".Sungmin.FeedActivity"/>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

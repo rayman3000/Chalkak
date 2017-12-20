@@ -85,14 +85,12 @@ public class SelfieActivity extends AppCompatActivity {
 
         mBinding.tabLayout.getTabAt(0).setIcon(R.drawable.ic_favorites);
         mBinding.tabLayout.getTabAt(1).setIcon(R.drawable.ic_person);
-        mBinding.tabLayout.getTabAt(2).setIcon(R.drawable.ic_map);
-        mBinding.tabLayout.getTabAt(3).setIcon(R.drawable.ic_chat);
+        mBinding.tabLayout.getTabAt(2).setIcon(R.drawable.ic_chat);
 
         // set icon color pre-selected
         mBinding.tabLayout.getTabAt(0).getIcon().setColorFilter(Color.WHITE, PorterDuff.Mode.SRC_IN);
         mBinding.tabLayout.getTabAt(1).getIcon().setColorFilter(getColor(R.color.grey_20), PorterDuff.Mode.SRC_IN);
         mBinding.tabLayout.getTabAt(2).getIcon().setColorFilter(getColor(R.color.grey_20), PorterDuff.Mode.SRC_IN);
-        mBinding.tabLayout.getTabAt(3).getIcon().setColorFilter(getColor(R.color.grey_20), PorterDuff.Mode.SRC_IN);
 
         mBinding.tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
@@ -118,8 +116,7 @@ public class SelfieActivity extends AppCompatActivity {
         mPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
         mPagerAdapter.addFragment(BestSelfieFragment.newInstance(), tabTitles[0]);    // index 0
         mPagerAdapter.addFragment(SelfieOfFriendFragment.newInstance(), tabTitles[1]);   // index 1
-        mPagerAdapter.addFragment(SelfieOfFriendFragment.newInstance(), "Books");    // index 2
-        mPagerAdapter.addFragment(TimelineFragment.newInstance(), "Games");    // index 3
+        mPagerAdapter.addFragment(TimelineFragment.newInstance(), tabTitles[2]);    // index 2
         mBinding.viewPager.setAdapter(mPagerAdapter);
     }
 

@@ -13,8 +13,8 @@ import android.view.ViewGroup;
 
 import bulgogi1216.gmail.photogenic.CameraActivity;
 import bulgogi1216.gmail.photogenic.R;
-import bulgogi1216.gmail.photogenic.SelfieActivity;
 import bulgogi1216.gmail.photogenic.Sungmin.ChatBotActivity;
+import bulgogi1216.gmail.photogenic.Sungmin.FeedActivity;
 import bulgogi1216.gmail.photogenic.Sungmin.ProvinceGridList;
 import bulgogi1216.gmail.photogenic.adapter.AdapterListHomeMenu;
 import bulgogi1216.gmail.photogenic.databinding.FragmentHomeBinding;
@@ -46,7 +46,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onItemClick(View _view, HomeMenuCategory _item) {
                 if(_item.getTitle().equals(mMenuTitles[0])) {
-                    Intent intent = new Intent(mContext, SelfieActivity.class);
+                    Intent intent = new Intent(mContext, FeedActivity.class);
                     startActivity(intent);
                 } else if(_item.getTitle().equals(mMenuTitles[2])) {
                     Intent intent = new Intent(mContext, CameraActivity.class);
